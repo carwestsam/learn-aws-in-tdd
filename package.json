@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": " ./node_modules/.bin/mocha tests/[[:digit:]]+_*.js"
+    "test": "./auto/test"
   },
   "author": "",
   "license": "ISC",
