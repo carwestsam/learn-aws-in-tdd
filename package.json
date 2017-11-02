@@ -1,0 +1,21 @@
+{
+  "name": "learn-aws-by-tdd",
+  "version": "0.0.1",
+  "description": "### Introduction",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "aws-sdk": "^2.142.0",
+    "mocha": "^4.0.1",
+    "remove": "^0.1.5",
+    "uuid": "^3.1.0"
+  }
+}
