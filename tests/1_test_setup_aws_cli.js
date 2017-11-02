@@ -1,19 +1,9 @@
 const AWS = require('aws-sdk');
 const uuid = require('uuid/v4');
-var assert = require('assert');
-var path = process.cwd();
+const assert = require('assert');
+const path = process.cwd();
 
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
-
-async function execCmd(cmd) {
-  const { stdout, stderr } = await exec(cmd);
-  if (stderr.length !== 0) {
-    throw stderr
-  } else {
-    return stdout
-  }
-}
+var execCmd = require('./libs/execCmd')
 
 describe('1. Setup Aws Cli', function () {
   it('should config system credentials', async function () {
