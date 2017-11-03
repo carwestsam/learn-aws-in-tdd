@@ -11,6 +11,10 @@ up, especially cloudformation. To reduces this gap, this project try to provide
 TDD like checkpoints, let user and learn it step by step, and has a visual
 report.
 
+### dependences
+
+* Node v8.2.1
+
 ### how to run
 
 ```bash
