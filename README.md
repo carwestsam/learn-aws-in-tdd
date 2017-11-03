@@ -18,6 +18,9 @@ npm install
 npm run
 ```
 
-### dependency
+### Todo Task
 
-pip install html-testRunner
+- [x] 1. Setup up aws cli - v0.0.1
+- [ ] 2. Play with S3
+- [ ] 3. Play with Parameter Store
+- [ ] 4. Start First EC2 instance & Configure Security Group - v0.0.2
