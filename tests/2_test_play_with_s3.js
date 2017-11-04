@@ -31,7 +31,9 @@ describe('2. Play With S3', function () {
       }
       expect(ua.length).to.equal(v.length)
       _.map(v, ch => {
-        expect(ua).contains(ch)
+        if (ua.indexOf(ch) == -1){
+          throw `question ${key}: missing correct answer ${ch}`
+        }
       })
     })
   })
