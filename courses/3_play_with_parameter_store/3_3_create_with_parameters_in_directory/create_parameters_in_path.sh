@@ -19,4 +19,5 @@ echo "value2:" $value2
 echo "name3:" $name3
 echo "value3:" $value3
 
-# aws ssm put-parameter ...
+# TODO: 
+aws ssm put-parameter ...

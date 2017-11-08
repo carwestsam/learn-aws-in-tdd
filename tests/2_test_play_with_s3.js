@@ -17,7 +17,7 @@ describe('2. Play With S3', function () {
   // }).timeout(10000)
 
   it('2.1 answer all the questions in sampleExam.md', function () {
-    let userAnswer = JSON.parse(fs.readFileSync(course_path + '/sampleAnswers.json'));
+    let userAnswer = JSON.parse(fs.readFileSync(course_path + '/answers.json'));
     let answer = {
       "1": "BC",
       "2": "A"
